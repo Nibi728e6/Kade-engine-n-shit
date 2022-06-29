@@ -1005,7 +1005,7 @@ class PlayState extends MusicBeatState
 		add(healthBar);
 
 		// Add watermarks
-		versionWatermark = new FlxText(4, #if mobileC "KE Android 1.5.4 Port By TheLeerName, Ver 1.0.1" #else "Kade Engine 1.5.4" #end, 16);
+		versionWatermark = new FlxText(4, #if mobileC "KE Android 1.5.4, Ver 1.0.1" #else "Kade Engine 1.5.4" #end, 16);
 		songWatermark = new FlxText(4,healthBarBG.y + 50,0,SONG.song + " - " + CoolUtil.difficultyFromInt(storyDifficulty), 16);
 
 		versionWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
